@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(160deg, #E6FFFD 35%, #e42a5c6b 90%,  #e42a5c8e 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/*Navbar top*/
+
+.navtop{
+    display: flex;
+    padding: 25px;
+    margin-left: 10px;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    gap: 680px;
+}
+.hrose a:hover{
+    color: #e42a5cbe;
+    text-decoration: underline;
+}
+
+ /*Link de volta á home: Liliana's Portfólio*/
+
+h4{
+    font-size: 25px;
+    margin-top: 0;
+}
+ul .bar{
+    margin-top: 0;
+}
+
+/*Lista de link da navbar*/
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: flex;
+}
+.portfoliolink:hover{
+    color: #e42a5cbe;
+}
+.bar{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+/*Subtitle 1: Certifications*/
+
+h3{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+.exp{
+    margin-top: 100px;
+}
+
+/*Wrapper: Certifications; certificationscontainer*/
+
+.certificationscontainer{
+    width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center; 
+    grid-template-areas: 
+    "one two"
+    "three three";
+}
+.certificados{
+    padding: 12px;
+}
+.certificados :nth-child(1){
+    grid-area: one;
+}
+.certificados :nth-child(2){
+    grid-area: two;
+}
+.certificados :nth-child(3){
+    grid-area: three;
+}
+figcaption{
+    margin-bottom: 12px;
+}
+img{
+    border: 1px solid black;
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+button{
+    display: flex;
+    justify-self: center;
+    color: rgba(59, 59, 59, 0.82);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+}
+button :hover{
+    border-color: #e42a5c9e;
+    box-shadow: rgba(211, 12, 82, 0) 0px 1px 0px, rgba(165, 13, 79, 0.628) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+
+

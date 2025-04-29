@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(160deg, #E6FFFD 35%, #e42a5c6b 90%,  #e42a5c8e 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+/*Navbar top*/
+
+.navtop{
+    display: flex;
+    padding: 25px;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    gap: 680px;
+}
+.hrose a:hover{
+    color: #e42a5cbe;
+    text-decoration: underline;
+}
+
+ /*Link de volta á home: Liliana's Portfólio*/
+
+h4{
+    font-size: 25px;
+    margin-top: 0;
+}
+ul .bar{
+    margin-top: 0;
+}
+
+/*Lista de link da navbar*/
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: flex;
+}
+.portfoliolink:hover{
+    color: #e42a5cbe;
+}
+.bar{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+/*Subtitle: About Me*/
+
+h3{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 90px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+/*Texto about me*/
+
+.text-wrapper{
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    max-width: 700px;
+    margin-left: 100px;
+}
+p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+br + p{
+    margin-top: -32px;
+}
+.myadvice{
+    font-size: 16.3px;
+    font-weight: 600;
+}
+.key{
+    font-size: 20px;
+    color: rgb(41, 169, 161);
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+    text-shadow: 2px 2px 4px rgba(223, 33, 119, 0.311);
+    margin-top: 40px;
+}
+
+/*Fotos: 3 fases + mancha de fundo / wrapper*/
+/*mancha*/
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    text-align: center;
+}
+.mancha img{
+    position: relative;  /*help*/
+    width: 260px;
+    margin-left: 750px;
+    top: -650px;
+    z-index: 0;
+}
+
+/*foto*/
+
+div .pic{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    top: -280px;
+    right: 45px;
+    z-index: 0;
+}
+.pic img{
+    width: 150px;
+}
+
+/*terceira foto*/
+
+/*help*/
+
+/*/figcaption*/
+
+figcaption{
+    position: relative;
+    top: -900px;
+    margin-left: 780px;
+    display: block;
+    z-index: 2;
+    margin-top: -13px;
+}

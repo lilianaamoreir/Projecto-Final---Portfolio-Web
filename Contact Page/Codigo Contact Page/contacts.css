@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(160deg, #E6FFFD 35%, #e42a5c6b 90%,  #e42a5c8e 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Navbar top*/
+
+.navtop{
+    display: flex;
+    padding: 25px;
+    margin-left: 10px;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    gap: 750px;
+}
+
+ /*Link de volta á home: Liliana's Portfólio*/
+
+h4{
+    font-size: 25px;
+    margin-top: 0;
+}
+ul .bar{
+    margin-top: 0;
+}
+
+/*Lista de link da navbar*/
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: flex;
+}
+.portfoliolink:hover{
+    color: #e42a5cbe;
+}
+.bar{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+/* Wrapper: Foto central + mancha*/
+
+.mancha{
+    position: fixed;
+    width: 70%;
+    opacity: 0.8;
+    margin-top: 10px;
+    margin-left: 30%;
+    transform: rotate(90deg);
+    z-index: 0;
+}
+.foto img{
+    position: fixed;
+    width: 230px;
+    display: flex;
+    margin-top: -20px;
+    margin-left: 39%;
+}
+
+/* Linha lista de contactos*/
+
+.line{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 230px;
+}
+.contline{
+    display: flex;
+    list-style: none;
+}
+.contline li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 19px;
+    font-weight: 600;
+    gap: 5px;
+    width: 250px;
+}
+.contline a{
+    display: flex;
+    justify-content: center;
+    font-weight: 100; 
+}
+.hrose a:hover{
+    color: #e42a5cbe;
+    text-decoration: underline;
+}
+
+/*Caixa de mensagem para contacto*/
+
+fieldset{
+    padding: 6px;
+    margin-top: 28px;
+    border: 1.5px solid rgba(201, 181, 181, 0.534);
+    z-index: 5;
+}
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: caveat;
+    padding: 10px;
+    margin-left: 50px;
+}
+.caixatexto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -15px;
+    margin-left: 55px;
+    padding: 12px;
+    gap: 7px;
+}
+
+/*inside textarea*/
+
+textarea {
+    width: 400px;
+    height: 80px;
+    resize: none;
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #91012f7a;
+    font-size: 14px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    color: #333
+}
+
+/*botão enviar*/
+
+input{
+    display: flex;
+    width: 60px;
+    border-radius: 3px;
+    border: 1px solid #91012f7a;
+    font-size: 14px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    color: #333;
+    margin-left: 28.5%;
+}
+input:hover, textarea:hover {
+    border-color: #e42a5c;
+    box-shadow: 0 0 5px rgba(228, 42, 92, 0.5);
+}
+
+  
+
+
+
+
+
